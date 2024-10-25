@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cheqn | onde vamos hoje?</title>
+  <meta name="description" content="Seu novo aplicativo para explorar e descobrir novos lugares. Baixe agora!">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="icon" href="/img/Vector (1).svg">
+</head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+
+<body>
+  <header class="header"> 
+    <div>
+    <a href="/index.html"><img src="/img/Vector (1).svg" class="logo" alt="logo do aplicativo Cheqn"></a>
+    </div>
+    
+    <div>
+    <nav>
+        <ul class="header-menu" id="header-menu">
+         <li> <a href="#features">Funcionalidades</a></li>
+         <li> <a href="#users">Quero usar</a></li>
+         <li> <a href="#leads">Quero divulgar meu lugar</a></li>
+         <li> <a href="#contato">Contato</a></li>
+       </ul>
+    </nav>
+  </div>
+  <div>
+    <img src="/img/hambmenu.svg" alt="menu smaller screens" class="hamburger" id="hamburger">
+  </div>
+  <div id="thankYouBar">
+    <p>Obrigado! Entraremos em contato em breve!</p>
+    <button class="closeBtn" onclick="closeThankYouBar()">X</button>
+</div>
+  </header>
+
+  <main class="intro">
+    <div class="intro">
+      <h2>Dificuldade em encontrar um lugar para sair?</h2>
+      <h1>Conheça o Cheqn</h1>
+      <p>Seu app ideal para encontrar lugares que combinam com você, além de criar listas compartilhadas com os amigos.      </p>
+      <form id="emailForm1" action="https://www.form-to-email.com/api/s/j90JFwG4_Cxs" method="POST">
+        <input type="email" class="sendemail" name="email" placeholder="nome@email.com" required>
+        <button type="submit" class="cta">Quero usar</button>
+        <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informação...</p>
+    </form>
+    </div>
+    <div class="intro-img">
+        <div >
+          <img src="/img/bbbbb.png" alt="foto do feed do aplicativo">
+        </div>
+        <div>
+          <img src="/img/eeee.png" alt="foto de uma lista dentro do aplicativo">
+        </div>
+      </div>
+  </main>
+
+
+
+<section id="features">
+  <div>
+
+  </div>
+  <div class="feature-cards">
+  <h4>Nós oferecemos</h4>
+  <h3>Tudo que você precisa para explorar na cidade!</h3>
+  <div class="feature">
+    <span>Crie e Compartilhe Listas dos seus Lugares Favoritos </span>
+    <p>Crie listas dos seus lugares favoritos ou que deseja conhecer. Compartilhe listas com seus amigos para explorarem juntos novos cantos da cidade.</p>
+    <p>Conecte-se e crie momentos únicos com quem você gosta.</p>
+  </div>
+  <div class="feature">
+    <span>Conexão Social e Descobertas Colaborativas </span>
+    <p>Descubra novos lugares que estão bombando através das listas dos seus amigos. Receba sugestões alinhadas ao estilo da sua rede e torne suas saídas ainda mais especiais. </p> 
+    <p> Conheça o mundo ao lado da sua comunidade.</p>
+  </div>
+  <div class="feature">
+    <span>Recomendações inteligentes e únicas</span>
+    <p>Nossas categorias inteligentes aprendem seus gostos, sugerindo lugares que parecem feitos sob medida para você. Assim, você descobre lugares incríveis sem perder tempo. 
+    <p>Explore o que combina com você - em qualquer cidade!</p>
+  </div>
+  </div>
+</section>
+
+<section id="users">
+  <div class="trial">
+    <h2>Pronto para começar a explorar?</h2>
+      <p>Seja um dos primeiros a experimentar uma nova maneira de descobrir e compartilhar lugares incríveis.</p>
+      <form id="emailForm2" action="https://www.form-to-email.com/api/s/j90JFwG4_Cxs" method="POST">
+          <input type="email" class="sendemail" name="email" placeholder="nome@email.com" required> 
+          <button class="cta">Quero usar</button>
+          <input type="hidden" name="_subject" value="Temos um novo usuário!">
+          <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informação...</p>
+        </form>  
+  </div>
+</section>
+
+<section id="leads">
+<div class="lead">
+    <h2>Atraia mais clientes para o seu negócio!  </h2>
+    <p>Divulgue seu bar ou restaurante no nosso app e conecte-se diretamente com pessoas que buscam experiências alinhadas ao que você oferece.  </p>
+  <div class="form-container">
+    <form id="emailForm3" action="https://www.form-to-email.com/api/s/plYzMZmOa-2Z" method="POST">
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="João Silva" required>
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" id="email"  name="email" placeholder="nome@email.com" required>
+        </div>
+        <div>
+          <label for="telefone">Contato</label>
+          <input type="tel" id="telefone" name="telefone" placeholder="31 99999-9999" required> 
+        </div>
+        <div>
+          <label for="city">Cidade</label>
+          <input type="text" id="city" name="city" placeholder="Belo Horizonte" required>
+        </div>
+        <div>
+          <button class="cta-form">Enviar</button>  
+          <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informação...</p>
+          <p id="errorMessage" style="display:none; color: #ff4d4d; font-size: 12px;">Ocorreu um erro ao enviar os dados. Tente novamente.</p>
+        </div>
+    </form>
+  </div>
+</div>
+</section>
+
+<footer>
+  <section id="contato">
+  <div class="footer">
+    <div class="footer-img">
+    <img src="/img/Vector (1).svg" class="logo" alt="logo da marca">
+
+  </div>
+
+  <div class="contato">
+    <p>Quer saber mais sobre o projeto?</p>
+    <p>Entre em contato conosco: </p>
+    <p class="emailcheqn">contato@cheqn.app</p>
+    <a href="https://www.instagram.com/cheqn.app?igsh=Z2lsbmtoazB5NWV1" target="_blank"><img src="/img/instagram.png" alt="" class="instaimg"></a>
+  </div>
+  <div class="copyright">
+    <p>© Cheqn 2024</p>
+  </div>
+  </div>
+</section>
+</footer>
+
+<script>
+// Function to close the thank you message bar and redirect to index.html
+function closeThankYouBar() {
+    window.location.href = "index.html"; // Redirect to index.html when the close button is clicked
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+      const hamburger = document.getElementById('hamburger');
+      const menu = document.getElementById('header-menu');
+
+      hamburger.addEventListener('click', () => {
+          menu.classList.toggle('active');
+      });
+  });
+
+// Add event listener for the first form
+document.getElementById("emailForm1").addEventListener("submit", function(event) {
+    handleFormSubmission(event, '.cta');
+});
+
+// Add event listener for the second form
+document.getElementById("emailForm2").addEventListener("submit", function(event) {
+    handleFormSubmission(event, '.cta');
+});
+
+// Add event listener for the third form
+document.getElementById("emailForm3").addEventListener("submit", function(event) {
+    handleFormSubmission(event, '.cta-form'); // Targeting cta-form for this form
+});
+
+// Function to handle form submission
+function handleFormSubmission(event, buttonClass) {
+    event.preventDefault();
+
+    // Disable the submit button (can be .cta or .cta-form)
+    const submitButton = event.target.querySelector(buttonClass);
+    if (submitButton) {
+        submitButton.disabled = true;
+        submitButton.style.backgroundColor = "#cccccc"; // Change button color to indicate disabled
+    }
+
+    // Show the success message
+    const statusMessage = event.target.querySelector("#statusMessage");
+    if (statusMessage) {
+        statusMessage.style.display = "block";
+    }
+
+    // Optionally, submit the form after the message is displayed
+    setTimeout(() => {
+        event.target.submit();
+    }, 2000); // Delay form submission by 2 seconds to show the success message
+}
+</script>
+</body>
+</html> 

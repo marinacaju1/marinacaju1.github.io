@@ -73,6 +73,7 @@ option {
   color: #262626;
   font-weight: bold;
   text-align: center;
+  cursor: pointer;
 }
 
 .cta-form:disabled {

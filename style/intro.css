@@ -58,6 +58,7 @@ p {
     color: #2b2b2b;
     text-align: center;
     justify-self: center;
+    cursor: pointer;
 }
 
 .intro-img {
