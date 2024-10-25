@@ -2,9 +2,10 @@
     max-width: 1200px;
     padding: 30px 20px;
     margin: 0 auto;
-    place-items: center;
+    display: block;
+    justify-content: center;
     justify-items: center;
-    display: flex;
+    /* display: flex; */
 }
 
 h1 { 
