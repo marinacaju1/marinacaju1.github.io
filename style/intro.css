@@ -104,15 +104,17 @@ p {
     .intro h2 { 
         font-size: 16px;
         text-align: center;
-        max-width: 320px;
+        /* max-width: 320px; */
+        padding: 10px;
         justify-content: center;
         display: block;
     }
     .intro p { 
         display: block;
         font-size: 14px;
-        max-width: 320px;
+        /* max-width: 320px; */
         text-align: center;
+        padding: 10px;
         justify-content: center;
     }
     .cta { 
@@ -126,7 +128,7 @@ p {
     .intro img { 
         max-width: 75%;
         place-self: center;
-        /* display: flex; */
+        display: flex;
         /* justify-content: space-between;  */
     }
 }
