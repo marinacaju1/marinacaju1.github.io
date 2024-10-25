@@ -78,6 +78,13 @@
         background-color: #161616;
         opacity: 0.97;
         backdrop-filter: blur(10px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        z-index: 1;
     }
     .header img { 
         max-width: 42px;
