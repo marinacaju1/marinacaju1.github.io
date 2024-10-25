@@ -42,7 +42,7 @@
       <form id="emailForm1" action="https://www.form-to-email.com/api/s/j90JFwG4_Cxs" method="POST">
         <input type="email" class="sendemail" name="email" placeholder="nome@email.com" required>
         <button type="submit" class="cta">Quero usar</button>
-        <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Email enviado com sucesso!</p>
+        <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informações...</p>
     </form>
     </div>
     <div class="intro-img">
@@ -90,7 +90,7 @@
           <input type="email" class="sendemail" name="email" placeholder="nome@email.com" required> 
           <button class="cta">Quero usar</button>
           <input type="hidden" name="_subject" value="Temos um novo usuário!">
-          <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">E-mail enviado com sucesso!</p>
+          <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informações...</p>
         </form>  
   </div>
 </section>
@@ -119,7 +119,7 @@
         </div>
         <div>
           <button class="cta-form">Enviar</button>  
-          <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Dados enviados com sucesso!</p>
+          <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informações...</p>
           <p id="errorMessage" style="display:none; color: #ff4d4d; font-size: 12px;">Ocorreu um erro ao enviar os dados. Tente novamente.</p>
         </div>
     </form>
@@ -148,6 +148,9 @@
 </section>
 </footer>
 <script>
+function closeThankYouBar() {
+    window.location.href = "index.html"; // Redirect to index.html when the close button is clicked
+}
   document.addEventListener('DOMContentLoaded', () => {
       const hamburger = document.getElementById('hamburger');
       const menu = document.getElementById('header-menu');
