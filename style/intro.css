@@ -4,7 +4,7 @@
     margin: 0 auto;
     align-items: center;
     justify-items: center;
-    /* display: flex; */
+    display: flex;
 }
 
 h1 { 
