@@ -158,6 +158,7 @@ option {
 @media (max-width: 600px) { 
   .footer { 
     display: block;
+    place-items: center;
     padding: 20px 50px;
     margin: 20px 0px 0px 0px;
   }
