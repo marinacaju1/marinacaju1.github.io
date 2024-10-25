@@ -34,6 +34,18 @@
     font-weight: bold;
     text-align: center;
 }
+
+.cta:disabled {
+    cursor: not-allowed; /* Show the user it's disabled */
+    box-shadow: none;    /* Remove shadow */
+    opacity: 0.5;        /* Make the button appear more faded */
+    color: #999999;      /* Adjust color to make it look disabled */
+}
+
+.cta:disabled:hover {
+    box-shadow: none;    /* No shadow on hover when disabled */
+    opacity: 0.5;        /* Keep the faded appearance */
+}
 @media (max-width: 1000px) { 
     .trial { 
         max-width: 520px;
