@@ -20,6 +20,10 @@
     z-index: 1;
 }
 
+.logo { 
+    max-width: 1200px;
+}
+
 .header img { 
     max-width: 58px;
     max-height: 58px;
