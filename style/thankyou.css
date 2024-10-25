@@ -1,13 +1,16 @@
 #thankYouBar {
-    width: 100%;
+    width: 100vw;
     background-color: #9A6FFB;
     color: white;
     text-align: center;
+    font-size: 12px !important;
     padding: 10px;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 999;
+    box-sizing: border-box; /* Ensures padding is included in the element's width */
+    margin: 0; /* Remove any margin */
 }
 
 #thankYouBar .closeBtn {
@@ -18,10 +21,11 @@
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     cursor: pointer;
 }
 
-body { 
-    margin-top: 50px;
+#thankYouBar p { 
+    font-size: 12px;
 }
+
