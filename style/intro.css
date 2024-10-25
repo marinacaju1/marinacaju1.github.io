@@ -126,7 +126,7 @@ p {
         justify-content: center;
     }
     .intro img { 
-        max-width: 75%;
+        /* max-width: 75%; */
         place-self: center;
         display: flex;
         /* justify-content: space-between;  */
