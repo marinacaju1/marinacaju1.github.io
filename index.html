@@ -39,7 +39,7 @@
       <h2>Dificuldade em encontrar um lugar para sair?</h2>
       <h1>Conheça o Cheqn</h1>
       <p>Seu app ideal para encontrar lugares que combinam com você, além de criar listas compartilhadas com os amigos.      </p>
-      <form id="emailForm" action="https://formsubmit.co/53d2ff9b38ecef53654ec42f13f353a3" method="POST">
+      <form id="emailForm1" action="https://formsubmit.co/53d2ff9b38ecef53654ec42f13f353a3" method="POST">
         <input type="email" class="sendemail" name="email" placeholder="nome@email.com" required>
         <button type="submit" class="cta">Quero usar</button>
         <input type="hidden" name="_subject" value="Temos um novo usuário!">
@@ -89,11 +89,13 @@
   <div class="trial">
     <h2>Pronto para começar a explorar?</h2>
       <p>Seja um dos primeiros a experimentar uma nova maneira de descobrir e compartilhar lugares incríveis.</p>
-      <form action="https://formsubmit.co/53d2ff9b38ecef53654ec42f13f353a3" method="POST">
-          <input type="email" class="sendemail" name="email" placeholder="nome@email.com" required> <button class="cta">Quero usar</button>
+      <form id="emailForm2" action="https://formsubmit.co/53d2ff9b38ecef53654ec42f13f353a3" method="POST">
+          <input type="email" class="sendemail" name="email" placeholder="nome@email.com" required> 
+          <button class="cta">Quero usar</button>
           <input type="hidden" name="_subject" value="Temos um novo usuário!">
           <input type="hidden" name="_next" value="https://cheqn.app/">
           <input type="hidden" name="_captcha" value="false">
+          <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Email enviado com sucesso!</p>
         </form>  
   </div>
 </section>
@@ -150,23 +152,36 @@
           menu.classList.toggle('active');
       });
   });
-  document.getElementById("emailForm").addEventListener("submit", function(event) {
-    // Prevent default form submission to simulate email sent
+
+    // Add event listener for the first form
+    document.getElementById("emailForm1").addEventListener("submit", function(event) {
+        handleFormSubmission(event);
+    });
+
+    // Add event listener for the second form
+    document.getElementById("emailForm2").addEventListener("submit", function(event) {
+        handleFormSubmission(event);
+    });
+
+
+// Function to handle form submission
+function handleFormSubmission(event) {
     event.preventDefault();
 
     // Disable the submit button
-    const submitButton = document.querySelector('.cta');
+    const submitButton = event.target.querySelector('.cta');
     submitButton.disabled = true;
     submitButton.style.backgroundColor = "#cccccc"; // Change button color to indicate disabled
 
     // Show the success message
-    const statusMessage = document.getElementById("statusMessage");
-    statusMessage.style.display = "block";
-    
+    const statusMessage = event.target.querySelector("#statusMessage");
+    if (statusMessage) {
+        statusMessage.style.display = "block";
+    }
+
     // Optionally, submit the form after the message is displayed
-    // You can use the line below to actually submit the form after showing the message
     event.target.submit();
-});
+}
 </script>
 </body>
 </html> 
