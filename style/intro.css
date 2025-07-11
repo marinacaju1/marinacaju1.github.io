@@ -35,30 +35,50 @@ p {
     text-align: center;
     /* padding: 15px; */
 }
-
+#emailForm1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    align-items: center;
+    width: 100%;
+}
 .sendemail { 
-    margin: 20px;
+    /*margin: 0;  Remove margin */
+    margin-top: 15px;
     background-color: #0d0d0d;
     border: 1px solid #262626;
     border-radius: 20px;
     color: #999999;
-    /* padding: 12px; */
-    width: 200px;
-    position: relative;
-    place-self: center;
-    flex: none;
+    padding: 12px 20px; /* Add consistent padding */
+    width: 280px; /* Increase width for better mobile experience */
+    max-width: 90%; /* Ensure it doesn't overflow on small screens */
+    font-size: 16px; /* Prevent zoom on iOS */
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .cta { 
-    padding: 12px 20px;
+    padding: 15px 30px; /* Increase padding for better touch target */
     background-color: #9A6FFB;
-    border: 1px solid #262626;
+    border: 1px solid #9A6FFB; /* Match border color to background */
     border-radius: 20px;
     font-weight: bold;
     color: #2b2b2b;
     text-align: center;
-    justify-self: center;
     cursor: pointer;
+    font-size: 16px; /* Consistent font size */
+    width: 280px; /* Match email input width */
+    max-width: 90%; /* Ensure it doesn't overflow */
+    box-sizing: border-box;
+    transition: all 0.3s ease; /* Smooth transition */
+}
+.cta:hover {
+    background-color: #8A5FEB;
+    transform: translateY(-2px);
+}
+
+.cta:active {
+    transform: translateY(0);
 }
 
 .intro-img {
@@ -142,11 +162,29 @@ p {
 @media (max-width: 820px) { 
     .intro {  
         flex-direction: column;
-        gap: 10px;
-        padding: 0px;
+        gap: 20px; /* Increase gap */
+        padding: 20px;
         margin: 0px 10px;
         align-items: center;
         text-align: center;
+    }
+    #emailForm1 {
+        gap: 20px; /* Increase gap on mobile */
+        margin-top: 20px;
+    }
+    
+    .sendemail {
+        width: 100%;
+        max-width: 320px;
+        padding: 15px 20px; /* Increase padding for mobile */
+    }
+    
+    .cta {
+        width: 100%;
+        max-width: 320px;
+        padding: 18px 30px; /* Larger touch target */
+        font-size: 16px;
+        font-weight: 600;
     }
     .intro h1 {  
         flex-direction: column;
@@ -174,12 +212,32 @@ p {
 }
 
 @media (max-width: 460px) { 
-    .intro { 
+.intro { 
         margin: 0 auto;
-        display: block;
-        /* justify-content: center; */
+        padding: 15px;
         text-align: center;
-        justify-content: center;
+    }
+    
+    #emailForm1 {
+        width: 100%;
+        gap: 15px;
+    }
+    
+    .sendemail {
+        width: 100%;
+        max-width: 280px;
+        padding: 12px 16px;
+        font-size: 16px; /* Prevent iOS zoom */
+    }
+    
+    .cta { 
+        width: 100%;
+        max-width: 280px;
+        padding: 15px 20px;
+        font-size: 16px;
+        font-weight: 600;
+        /* Ensure button is easily tappable */
+        min-height: 48px; /* Apple's recommended minimum touch target */
     }
     .intro h2 { 
         font-size: 16px;
@@ -195,14 +253,6 @@ p {
         /* max-width: 320px; */
         text-align: center;
         padding: 10px;
-        justify-content: center;
-    }
-    .cta { 
-        display: flex;
-        flex: none;
-        /* flex-wrap: nowrap; */
-        width: 200px;
-        padding: 12px;
         justify-content: center;
     }
     .intro img { 
