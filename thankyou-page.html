@@ -15,7 +15,7 @@
 
 <body>
   <header class="header"> 
-    <div>
+    <div class="logo">
     <a href="/index.html"><img src="/img/Vector (1).svg" class="logo" alt="logo do aplicativo Cheqn"></a>
     </div>
     
@@ -29,85 +29,113 @@
        </ul>
     </nav>
   </div>
+
   <div>
     <img src="/img/hambmenu.svg" alt="menu smaller screens" class="hamburger" id="hamburger">
   </div>
-  <div id="thankYouBar">
+<div id="thankYouBar">
     <p>Entraremos em contato em breve!</p>
     <button class="closeBtn" onclick="closeThankYouBar()">X</button>
 </div>
   </header>
 
   <main class="intro">
-    <div class="intro">
-      <h2>Dificuldade em encontrar um lugar para sair?</h2>
-      <h1>Conheça o Cheqn</h1>
-      <p>Seu app ideal para encontrar lugares que combinam com você, além de criar listas compartilhadas com os amigos.      </p>
-      <form id="emailForm1" action="https://www.form-to-email.com/api/s/j90JFwG4_Cxs" method="POST">
+    <div class="intro cascade-container">
+      <h2 class="cascade-item">Descubra lugares incríveis com base no gosto de quem você confia</h2>
+      <h1 class="cascade-item">Conheça o Cheqn</h1>
+      <p class="cascade-item">Sua nova forma de descobrir bares, restaurantes e cafés com recomendações reais, vindas das pessoas que você mais confia: seus amigos.</p>
+      <form id="emailForm1" class="cascade-item" action="https://www.form-to-email.com/api/s/w_3u0-nvABta" method="POST">
         <input type="email" class="sendemail" name="email" placeholder="nome@email.com" required>
         <button type="submit" class="cta">Quero usar</button>
-        <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informação...</p>
-    </form>
+        <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informações...</p>
+      </form>
     </div>
-    <div class="intro-img">
-        <div >
-          <img src="/img/bbbbb.png" alt="foto do feed do aplicativo">
-        </div>
-        <div>
-          <img src="/img/eeee.png" alt="foto de uma lista dentro do aplicativo">
-        </div>
-      </div>
-  </main>
+<div class="intro-img">
+    <div class="slide-in-left">
+        <img src="/img/feed.png" alt="foto do feed do aplicativo">
+    </div>
+    <div class="slide-in-left">
+        <img src="/img/list.png" alt="mostra como é uma lista dentro do aplicativo">
+    </div>
+    <div class="slide-in-right">
+        <img src="/img/map.png" alt="print de como é uma lista vista em mapa">
+    </div>
+</div>
 
 
 
 <section id="features">
-  <div>
-
-  </div>
+<div>
+  <h4>No cheqn</h4>
+  <h3>Você descobre lugares com confiança, não com sorte</h3>
+  <h2>Chega de reviews aleatórios ou listas genéricas.</h2>
+</div>
   <div class="feature-cards">
-  <h4>Nós oferecemos</h4>
-  <h3>Tudo que você precisa para explorar na cidade!</h3>
+
   <div class="feature">
-    <span>Crie e Compartilhe Listas dos seus Lugares Favoritos </span>
-    <p>Crie listas dos seus lugares favoritos ou que deseja conhecer. Compartilhe listas com seus amigos para explorarem juntos novos cantos da cidade.</p>
-    <p>Conecte-se e crie momentos únicos com quem você gosta.</p>
+    <span>Descoberta social</span>
+    <p>Explore listas criadas por amigos e pessoas que você conhece</p>
   </div>
   <div class="feature">
-    <span>Conexão Social e Descobertas Colaborativas </span>
-    <p>Descubra novos lugares que estão bombando através das listas dos seus amigos. Receba sugestões alinhadas ao estilo da sua rede e torne suas saídas ainda mais especiais. </p> 
-    <p> Conheça o mundo ao lado da sua comunidade.</p>
+    <span>“Aberto Agora”</span>
+    <p>Veja no mapa quais lugares estão abertos nesse exato momento.</p> 
   </div>
   <div class="feature">
-    <span>Recomendações inteligentes e únicas</span>
-    <p>Nossas categorias inteligentes aprendem seus gostos, sugerindo lugares que parecem feitos sob medida para você. Assim, você descobre lugares incríveis sem perder tempo. 
-    <p>Explore o que combina com você - em qualquer cidade!</p>
+    <span>Listas personalizadas</span>
+    <p>Crie listas por categoria, com foto, descrição e privacidade ajustável.</p>
+  </div>
+  <div class="feature">
+    <span>Categorias e avaliações</span>
+    <p>Marque lugares como favorito, quero ir ou cheqn, e avalie com estrelas.</p>
+  </div>
+  <div class="feature">
+    <span>Compartilhamento poderoso</span>
+    <p> Leve suas listas para o Instagram Stories ou WhatsApp com um clique.</p>
   </div>
   </div>
 </section>
-
+<div>
+  
+  <h3>Um app feito para quem vive a cidade de verdade</h3>
+  <h2>O Cheqn é mais que um app de recomendações. Ele é um jeito mais social, mais local e mais confiável de viver sua cidade — e ajudar outros a viverem também.</h2>
+</div>
 <section id="users">
   <div class="trial">
     <h2>Pronto para começar a explorar?</h2>
       <p>Seja um dos primeiros a experimentar uma nova maneira de descobrir e compartilhar lugares incríveis.</p>
-      <form id="emailForm2" action="https://www.form-to-email.com/api/s/j90JFwG4_Cxs" method="POST">
+      <form id="emailForm2" action="https://www.form-to-email.com/api/s/w_3u0-nvABta" method="POST">
           <input type="email" class="sendemail" name="email" placeholder="nome@email.com" required> 
           <button class="cta">Quero usar</button>
-          <input type="hidden" name="_subject" value="Temos um novo usuário!">
-          <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informação...</p>
+          <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informações...</p>
         </form>  
   </div>
 </section>
 
 <section id="leads">
 <div class="lead">
-    <h2>Atraia mais clientes para o seu negócio!  </h2>
-    <p>Divulgue seu bar ou restaurante no nosso app e conecte-se diretamente com pessoas que buscam experiências alinhadas ao que você oferece.  </p>
+  <h2>Para bares, restaurantes e marcas locais </h2>
+  <p>Conecte seu negócio às pessoas certas, no momento certo. Entregamos visibilidade contextual, nativa e com alta chance de conversão — sem depender de ads invasivos ou avaliações suspeitas. </p>
+  <div class="benefits-grid">
+  <div class="benefit-item">
+    <div class="benefit-text">Entendemos padrões de comportamento e preferências individuais</div>
+  </div>
+   <div class="benefit-item">
+     <div class="benefit-text">Detectamos tendências locais e sociais em tempo real</div>
+  </div>
+  <div class="benefit-item">
+    <div class="benefit-text">Criamos listas patrocinadas com alto potencial de match</div>
+  </div>
+  <div class="benefit-item">
+    <div class="benefit-text">Entregamos essas listas com push inteligente, impulsionando visitas reais</div>
+  </div>
+</div>
+
+
   <div class="form-container">
     <form id="emailForm3" action="https://www.form-to-email.com/api/s/DyS9rFPzlYYM" method="POST">
         <div>
           <label for="nome">Nome</label>
-          <input type="text" id="nome" name="nome" placeholder="João Silva" required>
+          <input type="text" id="nome" name="name" placeholder="João Silva" required>
         </div>
         <div>
           <label for="email">E-mail</label>
@@ -115,15 +143,15 @@
         </div>
         <div>
           <label for="telefone">Contato</label>
-          <input type="tel" id="telefone" name="telefone" placeholder="31 99999-9999" required> 
+          <input type="tel" id="telefone" name="telephone" placeholder="31 99999-9999" required> 
         </div>
         <div>
           <label for="city">Cidade</label>
-          <input type="text" id="city" name="city" placeholder="Belo Horizonte" required>
+          <input type="text" id="city" name="message" placeholder="Belo Horizonte" required>
         </div>
         <div>
           <button class="cta-form">Enviar</button>  
-          <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informação...</p>
+          <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informações...</p>
           <p id="errorMessage" style="display:none; color: #ff4d4d; font-size: 12px;">Ocorreu um erro ao enviar os dados. Tente novamente.</p>
         </div>
     </form>
@@ -135,7 +163,7 @@
   <section id="contato">
   <div class="footer">
     <div class="footer-img">
-    <img src="/img/Vector (1).svg" class="logo" alt="logo da marca">
+    <img src="/img/logo-cheqn-footer.svg" class="logo-footer" alt="logo da marca">
 
   </div>
 
@@ -151,14 +179,11 @@
   </div>
 </section>
 </footer>
-
 <script>
-// Function to close the thank you message bar and redirect to index.html
 function closeThankYouBar() {
     window.location.href = "index.html"; // Redirect to index.html when the close button is clicked
 }
-
-document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', () => {
       const hamburger = document.getElementById('hamburger');
       const menu = document.getElementById('header-menu');
 
