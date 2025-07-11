@@ -162,15 +162,14 @@ p {
 @media (max-width: 820px) { 
     .intro {  
         flex-direction: column;
-        gap: 20px; /* Increase gap */
+        gap: 10px; /* Increase gap */
         padding: 20px;
         margin: 0px 10px;
         align-items: center;
         text-align: center;
     }
     #emailForm1 {
-        gap: 20px; /* Increase gap on mobile */
-        margin-top: 20px;
+        gap: 10px; /* Increase gap on mobile */
     }
     
     .sendemail {
@@ -220,7 +219,7 @@ p {
     
     #emailForm1 {
         width: 100%;
-        gap: 5px;
+        gap: 15px;
     }
     
     .sendemail {
