@@ -41,7 +41,7 @@
       <h2 class="cascade-item">Descubra lugares incríveis com base no gosto de quem você confia</h2>
       <h1 class="cascade-item">Conheça o Cheqn</h1>
       <p class="cascade-item">Sua nova forma de descobrir bares, restaurantes e cafés com recomendações reais, vindas das pessoas que você mais confia: seus amigos.</p>
-      <form id="emailForm1" class="cascade-item" action="https://www.form-to-email.com/api/s/w_3u0-nvABta" method="POST">
+      <form id="emailForm1" class="cascade-item" action="https://formspree.io/f/xzzvpqpe" method="POST">
         <input type="email" class="sendemail" name="email" placeholder="nome@email.com" required>
         <button type="submit" class="cta">Quero usar</button>
         <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informações...</p>
@@ -74,7 +74,7 @@
     <p>Explore listas criadas por amigos e pessoas que você conhece</p>
   </div>
   <div class="feature">
-    <span>“Aberto Agora”</span>
+    <span>"Aberto Agora"</span>
     <p>Veja no mapa quais lugares estão abertos nesse exato momento.</p> 
   </div>
   <div class="feature">
@@ -100,7 +100,7 @@
   <div class="trial">
     <h2>Pronto para começar a explorar?</h2>
       <p>Seja um dos primeiros a experimentar uma nova maneira de descobrir e compartilhar lugares incríveis.</p>
-      <form id="emailForm2" action="https://www.form-to-email.com/api/s/w_3u0-nvABta" method="POST">
+      <form id="emailForm2" action="https://formspree.io/f/xzzvpqpe" method="POST">
           <input type="email" class="sendemail" name="email" placeholder="nome@email.com" required> 
           <button class="cta">Quero usar</button>
           <p id="statusMessage" style="display:none; color: #9A6FFB; font-size: 12px;">Enviando informações...</p>
@@ -129,7 +129,7 @@
 
 
   <div class="form-container">
-    <form id="emailForm3" action="https://www.form-to-email.com/api/s/DyS9rFPzlYYM" method="POST">
+    <form id="emailForm3" action="https://formspree.io/f/xrblzvko" method="POST">
         <div>
           <label for="nome">Nome</label>
           <input type="text" id="nome" name="name" placeholder="João Silva" required>
@@ -178,7 +178,7 @@
 </footer>
 <script>
 function closeThankYouBar() {
-    window.location.href = "index.html"; // Redirect to index.html when the close button is clicked
+    window.location.href = "index.html";
 }
   document.addEventListener('DOMContentLoaded', () => {
       const hamburger = document.getElementById('hamburger');
@@ -201,18 +201,18 @@ document.getElementById("emailForm2").addEventListener("submit", function(event)
 
 // Add event listener for the third form
 document.getElementById("emailForm3").addEventListener("submit", function(event) {
-    handleFormSubmission(event, '.cta-form'); // Targeting cta-form for this form
+    handleFormSubmission(event, '.cta-form');
 });
 
 // Function to handle form submission
 function handleFormSubmission(event, buttonClass) {
     event.preventDefault();
 
-    // Disable the submit button (can be .cta or .cta-form)
+    // Disable the submit button
     const submitButton = event.target.querySelector(buttonClass);
     if (submitButton) {
         submitButton.disabled = true;
-        submitButton.style.backgroundColor = "#cccccc"; // Change button color to indicate disabled
+        submitButton.style.backgroundColor = "#cccccc";
     }
 
     // Show the success message
@@ -221,10 +221,10 @@ function handleFormSubmission(event, buttonClass) {
         statusMessage.style.display = "block";
     }
 
-    // Optionally, submit the form after the message is displayed
+    // Submit the form after the message is displayed
     setTimeout(() => {
         event.target.submit();
-    }, 2000); // Delay form submission by 2 seconds to show the success message
+    }, 2000);
 }
 </script>
 </body>

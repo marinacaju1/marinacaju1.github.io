@@ -5,3 +5,24 @@
     @import url(./users.css);
     @import url(./lead.css);
     @import url(thankyou.css);
+
+/* reCAPTCHA styling */
+.g-recaptcha {
+    transform: scale(0.9);
+    transform-origin: 0 0;
+    margin: 10px 0;
+}
+
+/* Mobile responsive reCAPTCHA */
+@media (max-width: 480px) {
+    .g-recaptcha {
+        transform: scale(0.8);
+    }
+}
+
+/* CAPTCHA error styling */
+#captchaError {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #ff4d4d;
+}
