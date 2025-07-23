@@ -1,0 +1,143 @@
+# Termos de Uso do Cheqn
+
+**Data de vigência:** 09 de julho de 2025  
+**Controladora:** Cheqn LTDA | CNPJ 58.002.946/0001-77  
+**E-mail de contato:** dev@cheqn.app | Privacidade: privacy@cheqn.app  
+**Foro eleito:** Comarca de Belo Horizonte/MG  
+**Idade mínima para cadastro:** 18 anos completos  
+
+---
+
+## 1. Objeto
+
+1.1. O presente Termo regula o acesso e o uso do aplicativo móvel **Cheqn** (“Aplicativo”), destinado a descoberta social de bares, restaurantes e demais estabelecimentos, permitindo criação e compartilhamento de listas, marcação de locais (“favorito”, “quero ir”, “cheqn”) e visualização em mapa com status *Aberto agora*.
+
+---
+
+## 2. Aceite e Atualizações
+
+2.1. Ao criar conta ou utilizar qualquer funcionalidade, o Usuário declara ter lido, compreendido e **aceitado** integralmente este Termo.  
+2.2. A Cheqn poderá alterar o Termo a qualquer momento; alterações relevantes serão notificadas no Aplicativo e exigirão novo aceite antes de uso continuado.
+
+---
+
+## 3. Cadastro, Verificação e Segurança
+
+3.1. **Requisitos** – Cadastro via número de telefone válido (verificação por SMS via Firebase) ou outro método autorizado.  
+3.2. **Exatidão de dados** – O Usuário se compromete a fornecer informações verídicas e mantê-las atualizadas.  
+3.3. **Responsabilidade pela conta** – O Usuário é responsável por manter confidencialidade de credenciais. Qualquer atividade realizada sob a conta será atribuída ao titular.  
+
+---
+
+## 4. Funcionalidades Principais
+
+4.1. **Listas** – criar, editar, excluir; definir “público”, “privado” ou “link compartilhável”.  
+4.2. **Marcação e Avaliação** – atribuir tags e notas de 1 a 5 estrelas aos locais.  
+4.3. **Mapa & Geolocalização** – exibir locais com base na posição GPS do Usuário, mediante consentimento expresso de localização precisa.  
+4.4. **Compartilhamento social** – geração de links para Instagram Stories, WhatsApp e outros.  
+4.5. **Notificações Push** – envio de alertas de novos seguidores, listas ou locais adicionados (gerenciáveis pelo Usuário no SO).  
+
+---
+
+## 5. Obrigações do Usuário
+
+a) Utilizar o Aplicativo conforme a legislação brasileira, este Termo e as Políticas de Privacidade.  
+b) **Não** publicar conteúdo: ilícito, difamatório, obsceno, discriminatório, que viole direitos de propriedade intelectual ou privacidade de terceiros.  
+c) **Não** praticar mineração de dados (*scraping*), engenharia reversa, sobrecarga de servidores, envio de malware ou spam.  
+d) Respeitar direitos autorais de fotos, descrições e marcas de terceiros.  
+
+---
+
+## 6. Conteúdo Gerado pelo Usuário (UGC)
+
+6.1. O Usuário mantém a titularidade do conteúdo que criar, mas **concede à Cheqn** licença **mundial, gratuita, não exclusiva** para exibir, reproduzir e distribuir tal conteúdo dentro do Aplicativo e canais de divulgação, enquanto permanecer público.  
+6.2. A Cheqn se reserva o direito de remover conteúdo que viole este Termo ou políticas das lojas Google Play e Apple App Store, a seu exclusivo critério, sem necessidade de aviso prévio.  
+
+---
+
+## 7. Proprietário Intelectual
+
+7.1. **Marca Cheqn**, logotipo, design, código-fonte (NestJS backend, React Native frontend) e bancos de dados (AWS DynamoDB, ElasticSearch) pertencem exclusivamente à Cheqn LTDA.  
+7.2. Nenhum direito de propriedade é transferido ao Usuário, exceto licença limitada, revogável, intransferível e não exclusiva de uso do Aplicativo.
+
+---
+
+## 8. Utilização de Serviços de Terceiros
+
+8.1. O Aplicativo integra APIs e SDKs de terceiros (Google Places, Firebase, SerpAPI, AWS). O Usuário concorda em cumprir igualmente os termos desses serviços, isentando a Cheqn de responsabilidade por falhas oriundas das plataformas terceiras.  
+
+---
+
+## 9. Privacidade e Proteção de Dados
+
+9.1. Tratamento de dados pessoais regido pela **Política de Privacidade** disponível em <https://cheqn.app/politica>.  
+9.2. O Usuário declara estar ciente de que dados de localização, interação e identificação são coletados para autenticação, personalização e segurança, conforme LGPD e políticas da Google Play/Apple.  
+
+---
+
+## 10. Suspensão e Encerramento de Conta
+
+10.1. A Cheqn poderá suspender ou encerrar a conta, a qualquer tempo, em caso de:  
+i) violação deste Termo;  
+ii) fraude, spam ou uso automatizado;  
+iii) determinação judicial ou requisição da autoridade competente.  
+10.2. O Usuário pode solicitar exclusão da conta via Configurações ou e-mail privacidade@cheqn.app; a Cheqn cumprirá dentro dos prazos legais, observadas obrigações de guarda.  
+
+---
+
+## 11. Isenção de Garantias
+
+11.1. O Aplicativo é fornecido “**no estado em que se encontra**” (*as is*). A Cheqn não garante ausência de erros, interrupções, vírus ou compatibilidade com todos os dispositivos.  
+11.2. A Cheqn não se responsabiliza por decisões tomadas com base em recomendações, listas ou avaliações de terceiros dentro do Aplicativo.  
+
+---
+
+## 12. Limitação de Responsabilidade
+
+12.1. Na máxima extensão permitida pela lei, a responsabilidade total da Cheqn por quaisquer danos diretos decorrentes do uso do Aplicativo ficará limitada a R$ 500 (quinhentos reais).  
+12.2. A Cheqn, em nenhuma hipótese, será responsável por danos indiretos, lucros cessantes, perda de dados ou receita.  
+
+---
+
+## 13. Indenização
+
+O Usuário concorda em indenizar e isentar a Cheqn, seus diretores, empregados e parceiros contra quaisquer reclamações ou perdas decorrentes de uso indevido do Aplicativo, violação deste Termo ou de direitos de terceiros.  
+
+---
+
+## 14. Requisitos Específicos das Lojas
+
+### 14.1. Google Play Console  
+a) Política de Conteúdo do Usuário respeitada: proibição de UGC ilegal ou odioso.  
+b) Política de Dados do Usuário atendida: coleta, uso e compartilhamento descritos na Política de Privacidade.  
+c) Uso de localização descrito e ligado a funcionalidade principal (“locais próximos e *abertos agora*”).
+
+### 14.2. Apple App Store  
+a) Conformidade com *App Store Review Guidelines* § 5 (Legal).  
+b) Declaração de que **não rastreamos usuários em apps/domínios de terceiros nem realizamos publicidade personalizada**.  
+c) O Aplicativo não contém conteúdo sexual explícito, discurso de ódio ou incentiva atos ilegais.
+
+---
+
+## 15. Comunicações Oficiais
+
+15.1. A Cheqn poderá enviar avisos por e-mail, notificação push ou mensagem no Aplicativo.  
+15.2. Para comunicações formais, o Usuário deverá utilizar suporte@cheqn.app.
+
+---
+
+## 16. Disposições Finais
+
+16.1. A nulidade de qualquer cláusula não afetará as demais.  
+16.2. A tolerância quanto ao descumprimento não implicará renúncia de direito.  
+16.3. Este Termo se aplica à versão iOS, Android e Web (PWA) do Cheqn.
+
+---
+
+## 17. Foro e Legislação Aplicável
+
+Este Termo será regido pelas leis da República Federativa do Brasil. Fica eleito o foro da Comarca de **Belo Horizonte/MG**, com renúncia de qualquer outro, por mais privilegiado que seja.
+
+---
+
+**Última atualização:** 09 de julho de 2025
